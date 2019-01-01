@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainView"
+    tools:context=".activity.MainActivity">
+        <EditText
+            android:drawableLeft="@drawable/user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/main_user"
+            android:height="50dp"
+            android:textSize="22sp"
+            android:hint="输入账号"
+            android:drawablePadding="20dp"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/main_pwd"
+            android:height="50dp"
+            android:hint="输入密码"
+            android:textSize="22sp"
+            android:drawablePadding="20dp"
+            android:drawableLeft="@drawable/pwd"
+            />
+        <Button
+            android:layout_marginTop="200dp"
+            android:height="30dp"
+            android:layout_marginLeft="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="登录"
+            android:textColor="#ffffff"
+            android:background="#33A6FF"
+            android:id="@+id/main_loginBtn"
+            android:textSize="22sp"
+            android:onClick="click"
+            />
+
+</RelativeLayout>
